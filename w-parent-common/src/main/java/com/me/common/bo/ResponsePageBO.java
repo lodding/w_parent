@@ -12,7 +12,7 @@ import com.me.common.constant.HttpResponseStatus;
  * @author: szh
  * @create: 2020-07-30 14:50
  **/
-public final class ResponsePageBO <T> implements Response {
+public class ResponsePageBO <T> implements Response {
 
     private static final long serialVersionUID = -6227611767220392892L;
     private Boolean success;

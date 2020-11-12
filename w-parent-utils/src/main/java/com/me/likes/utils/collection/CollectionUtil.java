@@ -1,4 +1,4 @@
-package com.me.likes.utils;
+package com.me.likes.utils.collection;
 
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
