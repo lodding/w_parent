@@ -1,7 +1,6 @@
 package com.me.likes.controller;
 
 import com.me.common.bo.ResponseBO;
-import com.me.common.request.QueryLikes;
 import com.me.common.request.YueLikes;
 import com.me.common.response.QueryLikesResp;
 import com.me.likes.service.YueLikeService;
@@ -38,16 +37,16 @@ public class YueLikeController {
         return yueLikeService.add(yueLikes);
     }
 
-
-    /**
-     * @return
-     * @Description:查询
-     * @Param queryLikes
-     * @Author: szh
-     * @Date:
-     **/
-    @PostMapping(value = "me/like/query")
-    public ResponseBO<QueryLikesResp> query(QueryLikes queryLikes) {
-        return yueLikeService.get(queryLikes);
-    }
+//
+//    /**
+//     * @return
+//     * @Description:查询
+//     * @Param queryLikesØØ
+//     * @Author: szh
+//     * @Date:
+//     **/
+//    @PostMapping(value = "me/like/query")
+//    public ResponseBO<QueryLikesResp> query(QueryLikes queryLikes) {
+//        return yueLikeService.get(queryLikes);
+//    }
 }
